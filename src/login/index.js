@@ -1,4 +1,5 @@
 import React from "react"
+import logo from "../assets/img/pratic-logo.png"
 import './styles.css'
 
 export default function FormLogin(){
@@ -6,6 +7,7 @@ export default function FormLogin(){
         <div className="div-conteudo">            
             <div className="mx-auto div-conteudo-form">
                 <div className="div-header-form">
+                    <img src={logo} className="image-header" />
                     <span className="span-header" id="span-welcome" >Olá, bem-vindo!</span>
                     <span className="span-header" >Crie uma conta ou realize o login para acessar o sistema.</span>
                 </div>   
