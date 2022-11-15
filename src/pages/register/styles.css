@@ -1,0 +1,83 @@
+.div-conteudo{
+    height: auto;
+}
+
+.div-conteudo-form-register{
+    background-color: #4929f5;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    border-radius: 25px;
+    
+    box-shadow: 15px 15px #999;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.label-input{
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFF;
+    left: 0%;
+}
+
+.div-header-form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.span-header{
+    color: #FFF;
+}
+
+#span-welcome{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#span-welcome2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-person{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+
+.btn-register-account{
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #4a7bf9;
+    border: none;
+    margin-left: 0px;
+    color: #FFF;
+}
+
+.div-header-form2{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.image-header{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.div-button-register{
+    margin-top: 55px;
+}
+
+

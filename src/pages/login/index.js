@@ -1,8 +1,9 @@
 import React from "react"
-import logo from "../assets/img/pratic-logo.png"
+import { Link } from "react-router-dom";
+import logo from "../../assets/img/pratic-logo.png"
 import './styles.css'
 
-export default function FormLogin(){
+export default function FormLogin(){    
     return(
         <div className="div-conteudo">            
             <div className="mx-auto div-conteudo-form">
@@ -23,11 +24,10 @@ export default function FormLogin(){
                     </div>   
                     <div className="form-group div-button">
                         <button className="btn btn-light btn-login" type="submit">Acessar</button>
-                        <button type="button" className="btn btn-outline-light btn-register">Registre-se</button>
-                    </div>               
+                        <Link to="/register"><button type="button" className="btn btn-outline-light btn-register">Registrar-se</button></Link>
+                    </div>                
                 </form>
             </div>
-        </div>
-        
+        </div>                
     )
 };
